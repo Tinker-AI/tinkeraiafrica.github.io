@@ -1,0 +1,97 @@
+body {
+    background-color: #141414;
+    background-image:url();
+    margin:0; padding:0;
+    overflow-x:hidden;
+    height: 100px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.45;
+    color: rgba(255,255,255,.85);    
+}
+#container {
+    padding-top: 50px;
+}
+#content {
+    max-width: 43em;
+    padding: 10px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 4.0em;
+    font-weight: bold;
+    
+    
+    margin: 0;
+}
+h3 {
+    font-size: 2.4em;
+    font-weight: 300;
+    line-height: 1.5;
+}
+p, li {
+    font-size: 1.7em;
+
+}
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+}
+p#left {
+    max-width:20em;
+    float:left;
+}
+p#right {
+    max-width:20em;
+    float:left;
+}
+ul {
+    clear:both;
+}
+.notbold {
+    font-weight: lighter;
+}
+
+html { font-size: 62.5%;}
+body {font-size: 1em;}
+
+h2 {
+    max-width: 28.5em;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 103%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    max-width: i40em;  
+    
+}
+.twitter-handle {
+    width: 100px;
+
+}
+.email {
+    width: 100px;
+    
+}
+.github-page {
+    width: 100px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
